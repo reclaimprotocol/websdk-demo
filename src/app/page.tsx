@@ -27,6 +27,7 @@ export default function Home() {
         provider.providerId,
         {
           useAppClip: false,
+          log: true,
           customSharePageUrl: process.env.NEXT_PUBLIC_WEBSDK_URL!,
         }
       )
